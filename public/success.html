@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Newsletter Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="success_h1">Success!</h1>
+      <p class="success_para">
+        You are now signed up for our monthly newsletter!
+      </p>
+      <a class="signup__button" href="/">Go Back</a>
+      <h4 class="signup__error">Didn't mean to do that?</h4>
+      <form action="/unsubscribe" method="POST">
+        <input type="hidden" value="PUT" name="_method" />
+        <div class="form-group">
+          <input
+            type="text"
+            name="email"
+            class="form-control"
+            id="email"
+            placeholder="Email"
+          />
+        </div>
+        <button type="submit" class="unsubscribe">
+          Unsubscribe
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

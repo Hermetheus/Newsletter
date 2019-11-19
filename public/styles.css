@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    -0.06deg,
+    rgba(79, 195, 247, 1) 0%,
+    rgba(81, 188, 245, 0.612) 0%,
+    rgba(117, 82, 216, 0.98) 49.78%,
+    rgba(87, 136, 158, 0.51) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+body svg {
+  display: flex;
+  width: auto;
+  justify-content: center;
+  height: auto;
+  margin-top: 75px;
+}
+
+.newsletter__text {
+  width: auto;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 36px;
+  color: rgba(79, 195, 247, 1);
+  margin-top: 10px;
+}
+.info {
+  width: auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: rgba(79, 195, 247, 1);
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 3px 6px rgba(255, 0, 0, 0.561));
+  border-radius: 15px;
+  width: 611px;
+  padding: 15px;
+  margin: 15px;
+  height: 50px;
+}
+
+.form-group {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.signup__button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  filter: drop-shadow(2px 4px 13px rgba(0, 0, 0, 1));
+  background-color: rgba(255, 0, 0, 0.561);
+  border-radius: 15px;
+  width: 611px;
+  padding: 15px;
+  margin: 35px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(79, 195, 247, 1);
+  text-decoration: none;
+}
+
+.signup__button:hover {
+  background-color: rgba(255, 0, 0, 0.75);
+  transition-duration: 1s;
+}
+
+.unsubscribe__button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  filter: drop-shadow(2px 4px 13px rgba(0, 0, 0, 1));
+  background-color: rgba(255, 0, 0, 0.561);
+  border-radius: 15px;
+  width: 35%;
+  padding: 15px;
+  margin: 35px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(79, 195, 247, 1);
+  text-decoration: none;
+}
+
+.unsubscribe__button:hover {
+  background-color: rgba(255, 0, 0, 0.75);
+  transition-duration: 1s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.success_h1,
+.failed_h1 {
+  width: auto;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 36px;
+  color: rgba(79, 195, 247, 1);
+}
+
+.success_para,
+.failed_para {
+  width: auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: rgba(79, 195, 247, 1);
+  margin-top: 10px;
+  margin-bottom: 25px;
+}

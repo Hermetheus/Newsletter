@@ -1,0 +1,31 @@
+    <svg class="Rectangle_199">
+      <linearGradient
+        id="LinearGradientFill1"
+        spreadMethod="pad"
+        x1="0"
+        x2="1"
+        y1="0.488"
+        y2="0.487"
+      >
+        <stop offset="0" stop-color="#4fc3f7" stop-opacity="1"></stop>
+        <stop offset="0" stop-color="#51bcf5" stop-opacity="0.612"></stop>
+        <stop offset="0.4978" stop-color="#7552d8" stop-opacity="0.98"></stop>
+        <stop offset="1" stop-color="#57889e" stop-opacity="0.51"></stop>
+      </linearGradient>
+      <rect
+        fill="url(#LinearGradientFill1)"
+        stroke="rgba(112,112,112,1)"
+        stroke-width="1px"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        shape-rendering="auto"
+        id="Rectangle_199"
+        rx="0"
+        ry="0"
+        x="0"
+        y="0"
+        width="1920"
+        height="1080"
+      ></rect>
+    </svg>
