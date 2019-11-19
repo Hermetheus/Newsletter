@@ -65,8 +65,8 @@ app.post("/signup", (req, res) => {
 // Unsubscribe Route
 
 app.post("/unsubscribe", function(req, res) {
-  console.log(req.body);
-  const { email, id } = req.body;
+  // console.log(req.body);
+  const { email } = req.body;
   // Make sure fields are filled
   if (!email) {
     res.redirect("/fail.html");
@@ -106,7 +106,7 @@ app.post("/unsubscribe", function(req, res) {
         res.redirect("/fail.html");
       }
     }
-    console.log(body);
+    // console.log(body);
   });
 });
 

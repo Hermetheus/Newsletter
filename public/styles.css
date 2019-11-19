@@ -70,7 +70,7 @@ body svg {
   justify-content: center;
 }
 
-.signup__button {
+.signup__button, .unsubscribe__button {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -90,32 +90,7 @@ body svg {
   text-decoration: none;
 }
 
-.signup__button:hover {
-  background-color: rgba(255, 0, 0, 0.75);
-  transition-duration: 1s;
-}
-
-.unsubscribe__button {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  filter: drop-shadow(2px 4px 13px rgba(0, 0, 0, 1));
-  background-color: rgba(255, 0, 0, 0.561);
-  border-radius: 15px;
-  width: 35%;
-  padding: 15px;
-  margin: 35px;
-  height: 50px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  color: rgba(79, 195, 247, 1);
-  text-decoration: none;
-}
-
-.unsubscribe__button:hover {
+.signup__button:hover, .unsubscribe__button:hover {
   background-color: rgba(255, 0, 0, 0.75);
   transition-duration: 1s;
 }
